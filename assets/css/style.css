@@ -14,8 +14,8 @@
     z-index: 100;
     transition: 0.5s;
     background: rgba( 0, 0, 0, 0.30 );
-    backdrop-filter: blur( 6px );
     -webkit-backdrop-filter: blur( 6px );
+    backdrop-filter: blur( 6px );
 }
 
 .header_wrap.fix{
@@ -312,7 +312,6 @@
     background-repeat: no-repeat;
     width:0px;
     height:770px;
-    overflow: hidden;
 }
 
 .pre_con_wrap {
@@ -429,9 +428,14 @@
     margin: 0 auto;
 }
 
+.premium .swiper-pagination {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .premium .swiper-pagination-bullet  {
     background-color : #878787;
-    margin: 5px;
+    margin: 20px 5px;
     bottom: -2px;
 }
 
@@ -497,7 +501,13 @@
     color: #686766;
 }
 
+.value_life_wrap .swiper-pagination {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .value_life_wrap .swiper-pagination-bullet  {
+    margin: 20px 5px;
     background-color : #8c2332;
 }
 

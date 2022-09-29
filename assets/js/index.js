@@ -80,11 +80,11 @@ $(function () {
 
         if (sc > 1500) {
             $('.pre_left').delay(0).animate({
-                'width': '960px',
+                'width': '100%',
                 'margin-left': '-960px'
             }, 700)
             $('.pre_right').delay(0).animate({
-                'width': '960px',
+                'width': '100%',
                 'margin-left': '0px'
             }, 700)
             $('.pre_txt').delay(300).animate({
