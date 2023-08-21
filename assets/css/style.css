@@ -279,7 +279,7 @@
 /* premium */
 
 .premium {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .premium_wrap {
@@ -293,23 +293,18 @@
 
 .premium_wrap .pre_left {
     position: absolute;
-    left:50%;
-    margin-left:0px;
     top: 0;
-    opacity: 1;
-    background-image:url("../img/pre-left.jpg");
-    background-repeat: no-repeat;
+    left:50%;
+    background: url("../img/pre-left.jpg") no-repeat;
     width:0px;
     height:770px;
 }
 
 .premium_wrap .pre_right {
     position: absolute;
-    left:50%;
-    margin-left:0px;
     top: 0;
-    background-image:url("../img/pre-right.jpg");
-    background-repeat: no-repeat;
+    left:50%;
+    background: url("../img/pre-right.jpg") no-repeat;
     width:0px;
     height:770px;
 }
